@@ -86,7 +86,7 @@ public class BatchConfiguration {
 	  FlatFileItemReader<DataInfo> reader = new FlatFileItemReader<DataInfo>();
 	   
 	  //Set input file location
-	  reader.setResource(new FileSystemResource("data-test.txt"));
+	  reader.setResource(new FileSystemResource("data-e.txt"));
 	   
 	  //Set number of lines to skips. Use it if file has header rows.  
 	   

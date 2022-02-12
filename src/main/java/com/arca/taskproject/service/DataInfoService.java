@@ -20,7 +20,6 @@ public class DataInfoService {
 	DataInfoRepository dataInfoRepository;
 	
 	public DataInfo create(DataInfo dataInfo) {
-		System.out.println("dataInfo "+dataInfo);
 		return dataInfoRepository.save(dataInfo);
 	}
 	
